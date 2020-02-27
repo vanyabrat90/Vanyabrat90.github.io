@@ -484,7 +484,9 @@ background-image: url(https://cdn.arstechnica.net/wp-content/uploads/2017/05/min
 #box8 table{
 	margin: auto;
 }
-
+#box8 th img{
+	width: 100%;
+}
 
 
 
