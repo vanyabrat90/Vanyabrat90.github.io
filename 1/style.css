@@ -1,0 +1,147 @@
+@font-face{
+	font-family: font1;
+	src: url("1.ttf")
+}
+body{
+	background-color: #00ddff;
+	margin: 0;
+}
+#top-menu{
+	position: sticky;
+	height: 51px;
+	width: 100%;
+	background-color: rgba(355,106,19,0.8);
+	overflow-y: hidden;
+}
+.top-menu-el{
+	display: inline-block;
+	vertical-align: middle;
+	height: 31px;
+	text-align: center;
+	padding: 10px;
+	font-size: 25px;
+	color: #ff0000; 
+	font-family: font1;
+	position: relative;
+}
+.line{
+	position: absolute;
+	background-color: #323ea8;
+	width: 100%;
+	height: 0;
+	bottom: 0;
+	left: 0;
+	transition-duration: 490ms;
+	transition-property: height, opacity;
+	opacity: 0.2;
+}
+.top-menu-btn:hover .line{
+	height: 20%;
+	opacity: 1;
+}
+#top-menu a{
+	text-decoration: none;
+}
+.top-menu-btn:hover{
+	color: #fff;	
+}
+.top-menu-btn{
+	color: #aaa;
+	transition-duration: 299ms;
+	transition-property: color;
+}
+.top-menu-el-img{
+	height: 100%;
+}
+.box{
+	position: relative;
+	width: 100%;
+	min-width: 600px;
+	overflow-x: hidden; 
+}
+.box1-title{
+ 	position: absolute;
+ 	transform: translate(-50%,-50%);
+ 	top: 50%;
+ 	font-size: 50px;
+ 	color: #fff;
+ 	text-shadow: 0 0 20px  #fff;
+ 	font-family: font2;
+}
+.box1-img{
+	width:100%; 
+}
+#box1-1{
+	display: block;
+}
+#box1-2{
+	display: none;
+}
+#top-menu-right{
+	position: absolute;
+	right: 0;
+	top: 0;
+	text-align: right;
+	height: 50px;
+	color: #ff0000;
+}
+#top-menu-right-btn:hover{
+	color: #aaa;
+
+}
+#top-menu-right-btn3{
+	background-color: #ff0000;
+}
+#top-menu-right-btn3:hover{
+	color: #fff;
+}
+#top-menu-right-btn1-img{
+	height: 100%;
+}
+#top-menu-right-btn2-img{
+	height: 25px;
+}
+#box1-1-title{
+	text-align: center;
+	left: 50%;
+}
+#box1-2-title{
+	text-align: center;
+	left: 25%;
+}
+.f-button{
+	background-color:#ff0000;
+	height: 40px; 
+	margin: 5px;
+	font-size: 35px;
+	color: #fff;
+	transition-duration: 200ms;
+	transition-property: transform;
+	display: inline-block;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.box1-title a{
+	text-decoration: none;
+}
+.f-button div{
+	position: relative;
+}
+.f-button:hover{
+	transform: skew(-5deg) translateX(3px);
+}
+.f-button:hover div{
+	transform: skew(5deg) translateX(5px);
+}
+@font-face{
+	font-family: font1;
+	src: url("2.ttf")
+
+
+
+
+
+
+
+
+
